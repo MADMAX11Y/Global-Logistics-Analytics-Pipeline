@@ -79,12 +79,12 @@ python 06_orchestration.py
 ## 📁 Project Structure
 
 ```
-├── 01_extract_countries.ipynb   # Member 1
-├── 02_extract_taxi_fx.ipynb     # Member 2
-├── 03_transform_spark.ipynb     # Member 3
-├── 04_load_duckdb.ipynb         # Member 4
-├── 05_dashboard.py              # Member 5
-├── 06_orchestration.py          # Member 6
+├── 01_extract_countries.ipynb   # Andarge seifu
+├── 02_extract_taxi_fx.ipynb     # bereket Andualem
+├── 03_transform_spark.ipynb     # Bisrat engda
+├── 04_load_duckdb.ipynb         # Afomia kelemwork
+├── 05_dashboard.py              # meklit legese
+├── 06_orchestration.py          # meron  takele
 ├── data/
 │   ├── raw/
 │   └── processed/
@@ -97,12 +97,12 @@ python 06_orchestration.py
 
 | Member | File | Responsibility |
 |--------|------|---------------|
-| Member 1 | `01_extract_countries.ipynb` | REST Countries API, JSON parsing, Parquet save |
-| Member 2 | `02_extract_taxi_fx.ipynb` | NYC Taxi Parquet, Exchange Rates API |
-| Member 3 | `03_transform_spark.ipynb` | All PySpark transforms + business logic |
-| Member 4 | `04_load_duckdb.ipynb` | DuckDB tables, views, SQL queries |
-| Member 5 | `05_dashboard.py` | Streamlit dashboard, charts, filters |
-| Member 6 | `06_orchestration.py` | Prefect flow, task dependencies, README |
+| Andarge seifu | `01_extract_countries.ipynb` | REST Countries API, JSON parsing, Parquet save |
+| bereket Andualem | `02_extract_taxi_fx.ipynb` | NYC Taxi Parquet, Exchange Rates API |
+| Bisrat engda | `03_transform_spark.ipynb` | All PySpark transforms + business logic |
+| Afomia kelemwork | `04_load_duckdb.ipynb` | DuckDB tables, views, SQL queries |
+| meklit legese| `05_dashboard.py` | Streamlit dashboard, charts, filters |
+| meron  takele | `06_orchestration.py` | Prefect flow, task dependencies, README |
 
 ---
 
